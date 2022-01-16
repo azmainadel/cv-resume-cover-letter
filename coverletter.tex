@@ -27,9 +27,8 @@
 \fontdir[fonts/]
 
 % Color for highlights
-% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
-%                 awesome-nephritis, awesome-concrete, awesome-darknight
-\colorlet{awesome}{awesome-red}
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange, awesome-nephritis, awesome-concrete, awesome-darknight
+\colorlet{awesome}{awesome-darknight}
 % Uncomment if you would like to specify your own color
 % \definecolor{awesome}{HTML}{CA63A8}
 
@@ -41,7 +40,7 @@
 % \definecolor{lighttext}{HTML}{999999}
 
 % Set false if you don't want to highlight section with awesome color
-\setbool{acvSectionColorHighlight}{true}
+\setbool{acvSectionColorHighlight}{false}
 
 % If you would like to change the social information separator from a pipe (|) to something else
 \renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
@@ -52,28 +51,29 @@
 %	Comment any of the lines below if they are not required
 %-------------------------------------------------------------------------------
 % Available options: circle|rectangle,edge/noedge,left/right
-\photo[circle,noedge,left]{./examples/profile}
-\name{Claud D.}{Park}
-\position{Software Architect{\enskip\cdotp\enskip}Security Expert}
-\address{42-8, Bangbae-ro 15-gil, Seocho-gu, Seoul, 00681, Rep. of KOREA}
+\photo[circle,noedge,right]{photo.png}
+\name{Muhammad Azmain Adel}{}
+% \position{Software Architect{\enskip\cdotp\enskip}Security Expert}
+% \address{42-8, Bangbae-ro 15-gil, Seocho-gu, Seoul, 00681, Rep. of KOREA}
 
-\mobile{(+82) 10-9030-1843}
-\email{posquit0.bj@gmail.com}
-\homepage{www.posquit0.com}
-\github{posquit0}
-\linkedin{posquit0}
+\mobile{+880 1684 723252}
+\email{azmainadel47@gmail.com}
+\homepage{azmainadel.me}
+
+\github{azmainadel}
+\linkedin{azmainadel}
 % \gitlab{gitlab-id}
 % \stackoverflow{SO-id}{SO-name}
-% \twitter{@twit}
+% \twitter{@azmainadel_}
 % \skype{skype-id}
 % \reddit{reddit-id}
-% \medium{madium-id}
+\medium{azmainadel}
 % \googlescholar{googlescholar-id}{name-to-display}
 %% \firstname and \lastname will be used
 % \googlescholar{googlescholar-id}{}
 % \extrainfo{extra informations}
 
-\quote{``Be the change that you want to see in the world."}
+% \quote{``Be the change that you want to see in the world."}
 
 
 %-------------------------------------------------------------------------------
@@ -99,18 +99,18 @@
 %-------------------------------------------------------------------------------
 \begin{document}
 
-% Print the header with above personal informations
+% Print the header with above personal information
 % Give optional argument to change alignment(C: center, L: left, R: right)
-\makecvheader[R]
+\makecvheader[L]
 
 % Print the footer with 3 arguments(<left>, <center>, <right>)
 % Leave any of these blank if they are not needed
-\makecvfooter
-  {\today}
-  {Claud D. Park~~~·~~~Cover Letter}
-  {}
+% \makecvfooter
+%   {\today}
+%   {Claud D. Park~~~·~~~Cover Letter}
+%   {}
 
-% Print the title with above letter informations
+% Print the title with above letter information
 \makelettertitle
 
 %-------------------------------------------------------------------------------
